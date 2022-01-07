@@ -13,9 +13,6 @@
   .navbar {
     background: linear-gradient(to bottom right, #8e00c2, #4b0067);
   }
-  .slogan {
-    background: linear-gradient(to bottom right, #f9c258, #f8a924);
-  }
   .hero {
     background-image: url("../public/imgs/itemBg1.png") !important;
     background-repeat: no-repeat;
