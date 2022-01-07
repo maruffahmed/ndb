@@ -16,4 +16,10 @@
   .slogan {
     background: linear-gradient(to bottom right, #f9c258, #f8a924);
   }
+  .hero {
+    background-image: url("../public/imgs/itemBg1.png") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+  }
 }
