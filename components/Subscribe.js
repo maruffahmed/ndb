@@ -3,7 +3,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 
 function Subscribe(props) {
   return (
-    <div className=" border-t-4 border-b-4 border-deepIndigo bg-gradient-to-r from-deepYellow to-lightYellow flex flex-col justify-center items-center p-8">
+    <div className=" border-y-4 border-deepIndigo bg-gradient-to-r from-deepYellow to-lightYellow flex flex-col justify-center items-center p-8">
       <div className="flex flex-col justify-center items-center gap-4">
         <div className=" relative w-full">
           <input

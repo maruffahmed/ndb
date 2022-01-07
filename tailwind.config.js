@@ -9,6 +9,7 @@ module.exports = {
         deepBlue: "#172952",
         lightIndigo: "#8B00BD",
         deepIndigo: "#4A0065",
+        activeIndigo: "#E0AAF4",
         lightYellow: "#f9c258",
         deepYellow: "#f8a924",
       },
