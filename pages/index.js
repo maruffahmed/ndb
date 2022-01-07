@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "components/Navbar";
 import Slogan from "components/Slogan";
 import Hero from "components/Hero";
+import Subscribe from "components/Subscribe";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
             geographically; her characters are <br /> memorable and fully drawn,
             and the devastating meta-legacies they conjure are all too real.”
           </p>
-          <p className="text-center text-deepBlue font-bold text-lg">- VOGUE</p>
+          <p className="text-center text-deepBlue font-bold text-lg italic">
+            - VOGUE
+          </p>
         </div>
         <div className=" flex justify-center mt-10">
           <button className=" uppercase bg-gradient-to-r from-deepIndigo to-lightIndigo py-4 px-16 text-white font-bold rounded">
@@ -24,6 +27,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <Subscribe />
     </>
   );
 }
