@@ -17,7 +17,7 @@ function BookDetails({ title, quotes, author, href }) {
       </div>
       {href && (
         <div className=" flex justify-center mt-10">
-          <Button title="Learn More" href="/" className="py-4 px-16" />
+          <Button title="Learn More" href={href} className="py-4 px-16" />
         </div>
       )}
     </div>

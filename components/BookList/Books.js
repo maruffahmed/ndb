@@ -7,7 +7,7 @@ const books = [
     quotes:
       "“Dennis-Benn is a prodigious world-straddler, and not just geographically; her characters are memorable and fully drawn, and the devastating meta-legacies they conjure are all too real.”",
     author: "VOGUE",
-    href: "/",
+    href: "/single-book",
     thumbnail: "./imgs/06_book.png",
   },
   {
@@ -15,7 +15,7 @@ const books = [
     quotes:
       "“Dennis-Benn is a prodigious world-straddler, and not just geographically; her characters are memorable and fully drawn, and the devastating meta-legacies they conjure are all too real.”",
     author: "VOGUE",
-    href: "/",
+    href: "/single-book",
     thumbnail: "./imgs/06_book.png",
   },
 ];
