@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <Slogan />
       <Hero />
-      <div className="container mx-auto px-4 py-10">
+      <div className="container mx-auto px-8 pt-10 pb-20">
         <div className="flex flex-col gap-4">
           <p className=" italic text-gray-500 text-sm">
             “Dennis-Benn is a prodigious world-straddler, and not just
