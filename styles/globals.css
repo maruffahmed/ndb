@@ -19,4 +19,14 @@
     background-size: contain;
     height: 400px;
   }
+  .card {
+    @apply shadow-xl overflow-hidden;
+    border-radius: 20px;
+  }
+  .card-image {
+    background-image: url("../public/imgs/itemBg1.png") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+  }
 }

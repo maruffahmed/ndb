@@ -78,30 +78,23 @@ function Navbar(props) {
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="bg-indigo-50 border-gray-800 text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Dashboard
+                Books
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
                 className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Team
+                About
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
                 className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Projects
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                Calendar
+                Contact
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
