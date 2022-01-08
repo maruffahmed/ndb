@@ -13,6 +13,10 @@ module.exports = {
         lightYellow: "#f9c258",
         deepYellow: "#f8a924",
       },
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
+        optima: ["optima"],
+      },
     },
   },
   plugins: [],

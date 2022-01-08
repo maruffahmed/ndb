@@ -16,7 +16,7 @@ function Navbar(props) {
               <div className="flex-1 flex items-center justify-start sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <Link href="/">
-                    <a className="block text-white text-2xl font-bold">
+                    <a className="block text-white text-2xl font-bold font-lato">
                       Nicole Dennis-Benn
                     </a>
                   </Link>

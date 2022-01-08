@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/react": "^1.1.47",
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
     "html-react-parser": "^1.4.5",
