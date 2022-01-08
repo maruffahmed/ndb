@@ -7,11 +7,11 @@ module.exports = {
     extend: {
       colors: {
         deepBlue: "#172952",
-        lightIndigo: "#8B00BD",
+        lightIndigo: "#9400CA",
         deepIndigo: "#4A0065",
         activeIndigo: "#E0AAF4",
-        lightYellow: "#f9c258",
-        deepYellow: "#f8a924",
+        lightYellow: "#FAC35A",
+        deepYellow: "#F8A71E",
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
