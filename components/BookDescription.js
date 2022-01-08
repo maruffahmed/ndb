@@ -145,6 +145,7 @@ function BookDescription(props) {
                   title={item.title}
                   href={item.href}
                   className=" w-full text-center px-2 py-4"
+                  key={index}
                 />
               ))}
             </div>
