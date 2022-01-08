@@ -2,6 +2,18 @@ import React from "react";
 import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { CgFacebook } from "react-icons/cg";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(Footer, {
+  name: "Footer",
+  inputs: [
+    {
+      name: "Brand Name",
+      type: "text",
+      defaultValue: "Text here",
+    },
+  ],
+});
+
 function Footer(props) {
   return (
     <div className=" py-16 flex flex-col justify-center items-center gap-6">

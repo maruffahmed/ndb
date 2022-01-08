@@ -1,6 +1,18 @@
 import React from "react";
 import { RiSendPlaneFill } from "react-icons/ri";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(Subscribe, {
+  name: "Subscribe",
+  inputs: [
+    {
+      name: "Brand Name",
+      type: "text",
+      defaultValue: "Text here",
+    },
+  ],
+});
+
 function Subscribe(props) {
   return (
     <div className=" border-y-4 border-deepIndigo bg-gradient-to-r from-deepYellow to-lightYellow flex flex-col justify-center items-center p-8">

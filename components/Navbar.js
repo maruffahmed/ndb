@@ -6,6 +6,23 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { BiMenuAltRight } from "react-icons/bi";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(Navbar, {
+  name: "Navbar",
+  inputs: [
+    {
+      name: "Brand Name",
+      type: "text",
+      defaultValue: "Nicole Dennis-Benn",
+    },
+    {
+      name: "color",
+      type: "color",
+      defaultValue: "black",
+    },
+  ],
+});
+
 function Navbar(props) {
   return (
     <Disclosure as="nav" className="navbar shadow">

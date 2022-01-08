@@ -3,6 +3,32 @@ import parse from "html-react-parser";
 import Link from "next/link";
 import Button from "./utils/Button";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(BookDetails, {
+  name: "BookDetails",
+  inputs: [
+    {
+      name: "title",
+      type: "text",
+    },
+    {
+      name: "quotes",
+      type: "text",
+      defaultValue:
+        "“Dennis-Benn is a prodigious world-straddler, and not just geographically; her characters are <br /> memorable and fully drawn, and the devastating meta-legacies they conjure are all too real.”",
+    },
+    {
+      name: "author",
+      type: "text",
+      defaultValue: "VOGUE",
+    },
+    {
+      name: "href",
+      type: "text",
+    },
+  ],
+});
+
 function BookDetails({ title, quotes, author, href }) {
   return (
     <div className="container mx-auto px-8 pt-10 pb-20">

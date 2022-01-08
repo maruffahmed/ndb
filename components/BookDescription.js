@@ -3,6 +3,18 @@ import { Tab } from "@headlessui/react";
 import Button from "./utils/Button";
 import { classNames } from "utils";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(BookDescription, {
+  name: "BookDescription",
+  inputs: [
+    {
+      name: "title",
+      type: "text",
+      defaultValue: "Text here",
+    },
+  ],
+});
+
 const BuyLinks = [
   {
     title: "Amazon",

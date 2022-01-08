@@ -1,6 +1,22 @@
 import React from "react";
 import BookCard from "./BookCard";
 
+import { Builder } from "@builder.io/react";
+Builder.registerComponent(Books, {
+  name: "Books",
+  inputs: [
+    {
+      name: "title",
+      type: "text",
+      defaultValue: "Books",
+    },
+    {
+      name: "books",
+      type: "JSON",
+    },
+  ],
+});
+
 const books = [
   {
     title: "Patsy: A Novel",
@@ -20,7 +36,7 @@ const books = [
   },
 ];
 
-function Books(props) {
+function Books({ title }) {
   return (
     <div>
       <div className=" flex justify-center items-start py-4 shadow-lg">
