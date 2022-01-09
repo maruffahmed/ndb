@@ -13,7 +13,10 @@ function Contact(props) {
       <Navbar />
       <Slogan />
       <ContactHero />
-      <ContactForm />
+      <ContactForm
+        title="Want to reach out to <br /> Nicole Dennis-Benn?"
+        instruction="Please fill out the form below."
+      />
       <Subscribe />
       <ContactInfo />
       <Subscribe />

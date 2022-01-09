@@ -13,10 +13,13 @@ function About(props) {
     <>
       <Navbar />
       <Slogan />
-      <AboutHero />
-      <SocialLinks />
+      <AboutHero
+        name="Nicole Dennis-Benn"
+        title="Stories No One Dares To Tell!"
+      />
+      <SocialLinks instagram="/" twitter="/" facebook="/" />
       <AboutDescription />
-      <ContactAction />
+      <ContactAction title="Want to reach out to <br /> Nicole Dennis-Benn?" />
       <Subscribe />
       <Footer />
     </>
