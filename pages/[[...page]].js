@@ -15,6 +15,9 @@ import "components/About/AboutHero";
 import "components/SocialLinks";
 import "components/About/AboutDescription";
 import "components/ContactAction";
+import "components/Contact/ContactForm";
+import "components/Contact/ContactHero";
+import "components/Contact/ContactInfo";
 
 const BUILDER_API_KEY = "58accab74f514256ae48ff1260497a3d";
 builder.init(BUILDER_API_KEY);
@@ -70,28 +73,10 @@ export default function Page({ page }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{page.data.title}</title>
       </Head>
 
       <BuilderComponent model="page" content={page} />
     </>
   );
 }
-
-// export default function Home() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Slogan />
-//       <Hero />
-//       <BookDetails
-//         quotes="“Dennis-Benn is a prodigious world-straddler, and not just
-//           geographically; her characters are <br /> memorable and fully drawn,
-//           and the devastating meta-legacies they conjure are all too real.”"
-//         author="VOGUE"
-//         href="/"
-//       />
-//       <Subscribe />
-//       <Footer />
-//     </>
-//   );
-// }

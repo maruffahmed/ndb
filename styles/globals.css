@@ -60,4 +60,10 @@
     -webkit-box-shadow: inset 0px 0 8px #dddddd;
     box-shadow: inset 0px 0 8px #dddddd;
   }
+  select {
+    @apply relative;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+  }
 }

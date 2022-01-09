@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { classNames } from "utils";
 
-function Button({ title, href, className }) {
+function Button({ title, href, className, type = "button" }) {
   const style =
     "uppercase font-bold bg-gradient-to-r from-deepIndigo to-lightIndigo text-white rounded text-center ";
   return (
@@ -12,7 +12,9 @@ function Button({ title, href, className }) {
           <a className={classNames(style, className)}>{title}</a>
         </Link>
       ) : (
-        <button className={classNames(style, className)}>{title}</button>
+        <button type={type} className={classNames(style, className)}>
+          {title}
+        </button>
       )}
     </>
   );
