@@ -11,6 +11,10 @@ import "components/Footer";
 import "components/BookDetails";
 import "components/BookList/Books";
 import "components/BookDescription";
+import "components/About/AboutHero";
+import "components/SocialLinks";
+import "components/About/AboutDescription";
+import "components/ContactAction";
 
 const BUILDER_API_KEY = "58accab74f514256ae48ff1260497a3d";
 builder.init(BUILDER_API_KEY);

@@ -106,14 +106,14 @@ function Navbar(props) {
                   </a>
                 </Link>
               </Disclosure.Button>
-              <Disclosure.Button as={Fragment} href="/">
+              <Disclosure.Button as={Fragment} href="/about">
                 <Link>
                   <a className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                     About
                   </a>
                 </Link>
               </Disclosure.Button>
-              <Disclosure.Button as={Fragment} href="/">
+              <Disclosure.Button as={Fragment} href="/contact">
                 <Link>
                   <a className="border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                     Contact

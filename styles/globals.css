@@ -54,4 +54,10 @@
     background-size: contain;
     height: 300px;
   }
+  .contactAction {
+    border-radius: 30px;
+    -moz-box-shadow: inset 0px 0 8px #dddddd;
+    -webkit-box-shadow: inset 0px 0 8px #dddddd;
+    box-shadow: inset 0px 0 8px #dddddd;
+  }
 }
