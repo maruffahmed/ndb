@@ -14,8 +14,11 @@ Builder.registerComponent(Hero, {
 
 function Hero(props) {
   return (
-    <div className="hero flex justify-center items-center">
-      <img src="./imgs/06_book.png" alt="book" className=" w-10/12" />
+    <div className="flex justify-center items-center relative">
+      <img src="./imgs/06_book.png" alt="book" className=" w-10/12 z-20" />
+      <div className=" absolute inset-0 z-10">
+        <img src="./imgs/itemBg1.png" alt="bg" className=" h-full w-full" />
+      </div>
     </div>
   );
 }

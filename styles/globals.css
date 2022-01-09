@@ -39,10 +39,7 @@
     background: linear-gradient(to bottom right, #8e00c2, #4b0067);
   }
   .hero {
-    background-image: url("../public/imgs/itemBg1.png") !important;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 400px;
+    max-height: 400px;
   }
   .card {
     @apply shadow-xl overflow-hidden;
